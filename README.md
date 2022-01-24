@@ -27,6 +27,7 @@
 ### 1. Data Scraping
 - For scraping, I using [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/) to collect data from website [Propzy](propzy.vn).
 ### 2. Data Cleaning
+- Drop duplicated values
 - Extracted and create new information from text desription of each house.
 - Correct wrong price and numeric value of observations
 - Correct missing values
@@ -42,6 +43,7 @@
 - Transform numerical variables due to its skew distribution
 - Encode categorical variables for model building
 - Create new feature from heading title
+- Oversampling data
 - Cluster and PCA
 ### 5. Feature Selection
 - Drop redundant features

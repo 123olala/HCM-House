@@ -746,8 +746,8 @@ app.layout = html.Div(
                                         ),
                                         html.P(
                                             [
-                                                'The algorithm (LightGBM) is built with a root mean square error of approximately 1.08 billion VND.\
-                                                    The R squared of model is also 87.3%.'
+                                                'The algorithm (LightGBM) is built with a root mean square error of approximately 960 million VND.\
+                                                    The R squared of model is also 95.7%.'
                                             ]
                                         )
                                     ], className='description-division'
@@ -804,17 +804,17 @@ def return_price(
     model = joblib.load('final_model.sav')
     #Mapping category values
     district_dict = {
-            'hoc-mon':0, 'binh-tan':7, 'nha-be':2, 'q11':13, 'thu-duc':10,
-            'binh-chanh':1, 'binh-thanh':14, 'q3':18, 'q2':21, 'tan-phu':12,
-            'q4':4, 'q12':5, 'tan-binh':17, 'q8':3, 'q10':16,
-            'q6':11, 'q1':20, 'phu-nhuan':15, 'q9':6, 'q7':9,
-            'go-vap':8, 'q5':19
+            'hoc-mon':0, 'binh-tan':7, 'nha-be':2, 'q11':12, 'thu-duc':10,
+            'binh-chanh':1, 'binh-thanh':14, 'q3':19, 'q2':21, 'tan-phu':13,
+            'q4':3, 'q12':5, 'tan-binh':16, 'q8':4, 'q10':9,
+            'q6':11, 'q1':17, 'phu-nhuan':15, 'q9':6, 'q7':20,
+            'go-vap':8, 'q5':18
             }
     category_dict = {
-    'nha':1, 'can-ho':3, 'nha-mat-tien':4, 'day-tro':2, 'villa':5
+    'nha':1, 'can-ho':2, 'nha-mat-tien':4, 'day-tro':3, 'villa':5
 }
     direction_dict = {
-    'bac':2, 'tay':4, 'nam':3, 'khac':0, 'dong':1
+    'bac':3, 'tay':2, 'nam':4, 'khac':0, 'dong':1
 }
     status_dict = {
     'de-trong':1, 'dang-o':2, 'dang-cho-thue':3, 'khac':0
