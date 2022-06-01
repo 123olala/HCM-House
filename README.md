@@ -4,7 +4,7 @@
 - In this project, I will build a web app for predicting the house price in Ho Chi Minh City based on the datasets scraped at website [Propzy](propzy.vn).
 - App: https://hcmhouseprice.herokuapp.com/
 ### Preview
-![web_layout](https://github.com/123olala/House-Price-HCM/blob/main/assets/web_app.png)
+![web_layout](https://github.com/123olala/HCM-House/blob/main/assets/web_app.png)
 
 ## Workflow
 ### 0. Structures
